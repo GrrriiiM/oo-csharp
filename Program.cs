@@ -6,11 +6,6 @@ namespace oo_csharp
     {
         static void Main(string[] args)
         {
-            ApresentarTipos();
-        }
-
-        static void ApresentarTipos()
-        {
 
             Boolean var1 = default;
             Console.WriteLine($"{nameof(var1)} {var1} {var1.GetType().Name}");
